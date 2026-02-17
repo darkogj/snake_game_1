@@ -31,9 +31,9 @@ let gameLoop = null;
 highScoreValue.textContent = highScore;
 
 // Snake colors
-const snakeHeadColor = '#00ff88';
-const snakeBodyColor = '#00cc6a';
-const snakeBodyAltColor = '#00aa55';
+const snakeHeadColor = '#00d4ff';
+const snakeBodyColor = '#0099cc';
+const snakeBodyAltColor = '#006688';
 const foodColor = '#ff6b6b';
 const foodGlowColor = 'rgba(255, 107, 107, 0.4)';
 const gridColor = 'rgba(255, 255, 255, 0.02)';
