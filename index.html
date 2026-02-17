@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake - Modern Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>SNAKE</h1>
+            <div class="score-board">
+                <div class="score">
+                    <span class="score-label">Score</span>
+                    <span id="score-value">0</span>
+                </div>
+                <div class="high-score">
+                    <span class="score-label">Best</span>
+                    <span id="high-score-value">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-wrapper">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            <div id="gameOverlay" class="overlay">
+                <div class="overlay-content">
+                    <h2 id="overlay-title">Press SPACE to Start</h2>
+                    <p id="overlay-subtitle">Use Arrow Keys or WASD to move</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn">Start Game</button>
+            <button id="pauseBtn" class="btn">Pause</button>
+            <button id="restartBtn" class="btn">Restart</button>
+        </div>
+        
+        <div class="instructions">
+            <p>🎮 Controls: Arrow Keys or WASD | SPACE to Pause</p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
