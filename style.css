@@ -25,12 +25,12 @@ body {
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 8px;
-    background: linear-gradient(90deg, #00ff88, #00d4ff);
+    background: linear-gradient(90deg, #00d4ff, #0066ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 20px;
-    text-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+    text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
 }
 
 .score-board {
@@ -60,7 +60,7 @@ body {
 #score-value, #high-score-value {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #00ff88;
+    color: #00d4ff;
 }
 
 #high-score-value {
@@ -76,8 +76,8 @@ body {
 canvas {
     border-radius: 12px;
     box-shadow: 
-        0 0 40px rgba(0, 255, 136, 0.15),
-        0 0 80px rgba(0, 212, 255, 0.1),
+        0 0 40px rgba(0, 212, 255, 0.15),
+        0 0 80px rgba(0, 102, 255, 0.1),
         inset 0 0 60px rgba(0, 0, 0, 0.3);
     background: rgba(0, 0, 0, 0.4);
 }
@@ -109,7 +109,7 @@ canvas {
 .overlay h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #00ff88;
+    color: #00d4ff;
     animation: pulse 2s ease-in-out infinite;
 }
 
@@ -140,13 +140,13 @@ canvas {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #00ff88, #00d4ff);
+    background: linear-gradient(135deg, #00d4ff, #0066ff);
     color: #1a1a2e;
 }
 
 .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 255, 136, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
 }
 
 .btn:active {
